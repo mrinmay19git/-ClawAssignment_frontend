@@ -90,7 +90,7 @@ const SignUp = () => {
                   required
                 />
                 <label htmlFor="terms" className="checkbox-label">
-                  I accept the <a className="link" >Terms and Conditions</a>
+                  I accept the <span className="link" >Terms and Conditions</span>
                 </label>
               </div>
               <button type="submit" className="submit-button">Create an account</button>
