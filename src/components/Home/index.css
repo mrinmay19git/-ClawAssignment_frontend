@@ -126,7 +126,6 @@ button:hover {
 
 .menu-item:hover {
   background-color: #3b82f6;
-  background-opacity: 0.8;
   color: white;
 }
 
@@ -134,7 +133,6 @@ button:hover {
 .btn {
   position: relative;
   align-items: center;
-  select: none;
   font-family: sans-serif;
   font-weight: medium;
   text-align: center;
@@ -179,4 +177,11 @@ button:hover {
 .btn-amber:active {
   opacity: 0.85;
   box-shadow: none;
+}
+
+
+.descriptionBody {
+  background-color: #200060;
+  min-width:330px ;
+  margin-right: 20px;
 }

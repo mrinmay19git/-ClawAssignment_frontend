@@ -1,8 +1,9 @@
 import React from 'react'
-import {MdAssignment} from 'react-icons/md'
 import { useNavigate } from 'react-router-dom';
 import Cookies from 'js-cookie';
 import './index.css'
+import { MdOutlineAssignment } from "react-icons/md";
+
 
 const NavBar = () => {
 
@@ -16,7 +17,7 @@ const NavBar = () => {
   return (
     <nav className="bg-white border-gray-200 dark:bg-gray-900 ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-      <MdAssignment size={40} />
+      <MdOutlineAssignment  size={40} />
 
         <span className="flex items-center space-x-2 rtl:space-x-reverse">
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Detalis of Checklists </span>
